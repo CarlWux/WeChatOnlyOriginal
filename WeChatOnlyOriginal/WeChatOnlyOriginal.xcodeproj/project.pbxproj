@@ -1,0 +1,329 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0F6BE80F1D07F9B400F2C37C /* BlackMagic.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BE8031D07F50A00F2C37C /* BlackMagic.m */; };
+		0F6BE8101D07F9B400F2C37C /* WeChatOnlyOriginal.mm in Sources */ = {isa = PBXBuildFile; fileRef = 0F6BE80E1D07F50A00F2C37C /* WeChatOnlyOriginal.mm */; };
+		7D07C8A51C54A9BC00084141 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7D07C8A41C54A9BC00084141 /* Foundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0F6BE8021D07F50A00F2C37C /* BlackMagic.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BlackMagic.h; sourceTree = "<group>"; };
+		0F6BE8031D07F50A00F2C37C /* BlackMagic.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = BlackMagic.m; sourceTree = "<group>"; };
+		0F6BE8061D07F50A00F2C37C /* control */ = {isa = PBXFileReference; lastKnownFileType = text; path = control; sourceTree = "<group>"; };
+		0F6BE8071D07F50A00F2C37C /* control.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = control.txt; sourceTree = "<group>"; };
+		0F6BE80B1D07F50A00F2C37C /* WeChatOnlyOriginal.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = WeChatOnlyOriginal.plist; sourceTree = "<group>"; };
+		0F6BE80C1D07F50A00F2C37C /* PackageVersion.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = PackageVersion.plist; sourceTree = "<group>"; };
+		0F6BE80D1D07F50A00F2C37C /* WeChatOnlyOriginal-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "WeChatOnlyOriginal-Prefix.pch"; sourceTree = "<group>"; };
+		0F6BE80E1D07F50A00F2C37C /* WeChatOnlyOriginal.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = WeChatOnlyOriginal.mm; sourceTree = "<group>"; };
+		7D07C8A11C54A9BC00084141 /* WeChatOnlyOriginal.dylib */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.dylib"; includeInIndex = 0; path = WeChatOnlyOriginal.dylib; sourceTree = BUILT_PRODUCTS_DIR; };
+		7D07C8A41C54A9BC00084141 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7D07C89D1C54A9BC00084141 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7D07C8A51C54A9BC00084141 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0F6BE8011D07F50A00F2C37C /* WeChatOnlyOriginal */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BE8021D07F50A00F2C37C /* BlackMagic.h */,
+				0F6BE8031D07F50A00F2C37C /* BlackMagic.m */,
+				0F6BE8041D07F50A00F2C37C /* Package */,
+				0F6BE80C1D07F50A00F2C37C /* PackageVersion.plist */,
+				0F6BE80D1D07F50A00F2C37C /* WeChatOnlyOriginal-Prefix.pch */,
+				0F6BE80E1D07F50A00F2C37C /* WeChatOnlyOriginal.mm */,
+			);
+			path = WeChatOnlyOriginal;
+			sourceTree = "<group>";
+		};
+		0F6BE8041D07F50A00F2C37C /* Package */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BE8051D07F50A00F2C37C /* DEBIAN */,
+				0F6BE8081D07F50A00F2C37C /* Library */,
+			);
+			path = Package;
+			sourceTree = "<group>";
+		};
+		0F6BE8051D07F50A00F2C37C /* DEBIAN */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BE8061D07F50A00F2C37C /* control */,
+				0F6BE8071D07F50A00F2C37C /* control.txt */,
+			);
+			path = DEBIAN;
+			sourceTree = "<group>";
+		};
+		0F6BE8081D07F50A00F2C37C /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BE8091D07F50A00F2C37C /* MobileSubstrate */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		0F6BE8091D07F50A00F2C37C /* MobileSubstrate */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BE80A1D07F50A00F2C37C /* DynamicLibraries */,
+			);
+			path = MobileSubstrate;
+			sourceTree = "<group>";
+		};
+		0F6BE80A1D07F50A00F2C37C /* DynamicLibraries */ = {
+			isa = PBXGroup;
+			children = (
+				0F6BE80B1D07F50A00F2C37C /* WeChatOnlyOriginal.plist */,
+			);
+			path = DynamicLibraries;
+			sourceTree = "<group>";
+		};
+		7D07C8971C54A9BC00084141 = {
+			isa = PBXGroup;
+			children = (
+				0F6BE8011D07F50A00F2C37C /* WeChatOnlyOriginal */,
+				7D07C8A31C54A9BC00084141 /* Frameworks */,
+				7D07C8A21C54A9BC00084141 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7D07C8A21C54A9BC00084141 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7D07C8A11C54A9BC00084141 /* WeChatOnlyOriginal.dylib */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7D07C8A31C54A9BC00084141 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				7D07C8A41C54A9BC00084141 /* Foundation.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		7D07C89E1C54A9BC00084141 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		7D07C8A01C54A9BC00084141 /* WeChatOnlyOriginal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7D07C8B61C54A9BC00084141 /* Build configuration list for PBXNativeTarget "WeChatOnlyOriginal" */;
+			buildPhases = (
+				7D07C89C1C54A9BC00084141 /* Sources */,
+				7D07C89D1C54A9BC00084141 /* Frameworks */,
+				7D07C89E1C54A9BC00084141 /* Headers */,
+				7D07C89F1C54A9BC00084141 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WeChatOnlyOriginal;
+			productName = hook1;
+			productReference = 7D07C8A11C54A9BC00084141 /* WeChatOnlyOriginal.dylib */;
+			productType = "com.apple.product-type.library.dynamic";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7D07C8981C54A9BC00084141 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				TargetAttributes = {
+					7D07C8A01C54A9BC00084141 = {
+						CreatedOnToolsVersion = 7.2;
+					};
+				};
+			};
+			buildConfigurationList = 7D07C89B1C54A9BC00084141 /* Build configuration list for PBXProject "WeChatOnlyOriginal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7D07C8971C54A9BC00084141;
+			productRefGroup = 7D07C8A21C54A9BC00084141 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7D07C8A01C54A9BC00084141 /* WeChatOnlyOriginal */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		7D07C89F1C54A9BC00084141 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/opt/iOSOpenDev/bin/iosod --xcbp";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7D07C89C1C54A9BC00084141 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0F6BE80F1D07F9B400F2C37C /* BlackMagic.m in Sources */,
+				0F6BE8101D07F9B400F2C37C /* WeChatOnlyOriginal.mm in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7D07C8B41C54A9BC00084141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = NO;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = NO;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Debug;
+		};
+		7D07C8B51C54A9BC00084141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COPY_PHASE_STRIP = YES;
+				EXCLUDED_RECURSIVE_SEARCH_PATH_SUBDIRECTORIES = "*.nib *.lproj *.gch (*) .DS_Store CVS .svn .git .hg *.xcodeproj *.xcode *.pbproj *.pbxproj";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(iOSOpenDevPath)/frameworks/**",
+					"$(SDKROOT)/System/Library/PrivateFrameworks",
+				);
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_ABOUT_MISSING_PROTOTYPES = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				HEADER_SEARCH_PATHS = "$(iOSOpenDevPath)/include/**";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				LIBRARY_SEARCH_PATHS = "$(iOSOpenDevPath)/lib/**";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				iOSOpenDevPath = /opt/iOSOpenDev;
+			};
+			name = Release;
+		};
+		7D07C8B71C54A9BC00084141 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: xing wu (72W35B6USH)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeChatOnlyOriginal/WeChatOnlyOriginal-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = WeChatOnlyOriginal;
+				PROVISIONING_PROFILE = "00213862-8bfb-49cc-ad97-2166dd2bf3b9";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Debug;
+		};
+		7D07C8B81C54A9BC00084141 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer: xing wu (72W35B6USH)";
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "WeChatOnlyOriginal/WeChatOnlyOriginal-Prefix.pch";
+				INSTALL_PATH = /Library/MobileSubstrate/DynamicLibraries;
+				PRODUCT_NAME = WeChatOnlyOriginal;
+				PROVISIONING_PROFILE = "00213862-8bfb-49cc-ad97-2166dd2bf3b9";
+				iOSOpenDevBuildPackageOnAnyBuild = NO;
+				iOSOpenDevCopyOnBuild = NO;
+				iOSOpenDevDevice = "";
+				iOSOpenDevInstallOnAnyBuild = NO;
+				iOSOpenDevInstallOnProfiling = YES;
+				iOSOpenDevRespringOnInstall = YES;
+				iOSOpenDevUsePackageVersionPList = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7D07C89B1C54A9BC00084141 /* Build configuration list for PBXProject "WeChatOnlyOriginal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D07C8B41C54A9BC00084141 /* Debug */,
+				7D07C8B51C54A9BC00084141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7D07C8B61C54A9BC00084141 /* Build configuration list for PBXNativeTarget "WeChatOnlyOriginal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7D07C8B71C54A9BC00084141 /* Debug */,
+				7D07C8B81C54A9BC00084141 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7D07C8981C54A9BC00084141 /* Project object */;
+}
